@@ -94,25 +94,25 @@ export default function Portfolio() {
     {
       title: "Brute Force Attack Detection using Threshold Rule",
       desc: "Designed and implemented a threshold-based detection rule in Elastic SIEM to identify multiple failed login attempts from the same source IP.",
-      link: "Project-1-Windows-Failed-Login/Project-2-Brute-Force-Detection",
+      link: "https://github.com/Rajinikanth123-beep/soc-analyst-l1-portfolio/tree/main/Project-1-Windows-Failed-Login/Project-2-Brute-Force-Detection",
       image: "https://res.cloudinary.com/dllobgxw0/image/upload/v1771705441/download_1_iqldpn.jpg"
     },
     {
       title: "Suspicious PowerShell Execution Detection",
       desc: "Created detection queries to monitor encoded and obfuscated PowerShell commands in Windows logs.",
-      link: "Project-1-Windows-Failed-Login/Project-2-Brute-Force-Detection/Project-3-Suspicious-PowerShell",
+      link: "https://github.com/Rajinikanth123-beep/soc-analyst-l1-portfolio/tree/main/Project-1-Windows-Failed-Login/Project-2-Brute-Force-Detection/Project-3-Suspicious-PowerShell",
       image: "https://res.cloudinary.com/dllobgxw0/image/upload/v1771705441/download_2_p52vwf.jpg"
     },
     {
       title: "Windows Failed Login Monitoring (Elastic SIEM)",
       desc: "Monitored Event ID 4625 logs to detect repeated authentication failures.",
-      link: "Project-1-Windows-Failed-Login",
+      link: "https://github.com/Rajinikanth123-beep/soc-analyst-l1-portfolio/tree/main/Project-1-Windows-Failed-Login",
       image: "https://res.cloudinary.com/dllobgxw0/image/upload/v1771705441/download_3_rugoii.jpg"
     },
     {
       title: "Port Scan Detection using Elastic SIEM",
       desc: "Developed correlation rules to detect abnormal scanning behavior across multiple ports.",
-      link: "Project-1-Windows-Failed-Login/Project-2-Brute-Force-Detection/Project-3-Suspicious-PowerShell/Project-4-Privilege-Escalation/Project-5-Port-Scan-Detection",
+      link: "https://github.com/Rajinikanth123-beep/soc-analyst-l1-portfolio/tree/main/Project-1-Windows-Failed-Login/Project-2-Brute-Force-Detection/Project-3-Suspicious-PowerShell/Project-4-Privilege-Escalation/Project-5-Port-Scan-Detection",
       image: "https://res.cloudinary.com/dllobgxw0/image/upload/v1771705442/download_4_zx2op8.jpg"
     },
     {
@@ -124,7 +124,7 @@ export default function Portfolio() {
     {
       title: "Advanced End-to-End SOC Attack Simulation & Incident Response",
       desc: "Simulated real-world cyber attack scenarios, generated logs, created custom detection rules in Elastic SIEM, performed alert triage, investigation, and documented full incident response workflow.",
-      link: "Project-1-Windows-Failed-Login/Project-2-Brute-Force-Detection/Project-3-Suspicious-PowerShell/Project-4-Privilege-Escalation/Project-5-Port-Scan-Detection/Advanced-End-to-End-Attack-Detection",
+      link: "https://github.com/Rajinikanth123-beep/soc-analyst-l1-portfolio/tree/main/Project-1-Windows-Failed-Login/Project-2-Brute-Force-Detection/Project-3-Suspicious-PowerShell/Project-4-Privilege-Escalation/Project-5-Port-Scan-Detection/Advanced-End-to-End-Attack-Detection",
       image: "https://res.cloudinary.com/dllobgxw0/image/upload/v1771705850/download_6_vdxmk3.jpg"
     }
   ];
