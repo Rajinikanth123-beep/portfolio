@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Instagram, Mail, MapPin, Phone } from "lucide-react";
+import TechnicalSkills from "./TechnicalSkills";
 
 const roles = ["SOC Analyst", "Threat Hunter", "SIEM Engineer", "Cyber Defender"];
 
@@ -165,7 +166,7 @@ export default function Portfolio() {
           <p className="text-slate-400">
             SOC Analyst | SIEM Monitoring | Threat Detection | Log Analysis | Elastic Security
           </p>
-          <a href="/resume.pdf" download className="inline-block mt-6 px-6 py-3 border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition rounded-lg">
+          <a href="/resume.pdf" download="Rajinikanth.pdf" className="inline-block mt-6 px-6 py-3 border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition rounded-lg">
             Download Resume
           </a>
         </div>
@@ -218,17 +219,7 @@ export default function Portfolio() {
         </motion.div>
       </section>
 
-      {/* Skills */}
-      <section id="skills" className="py-24 text-center">
-        <h2 className="text-4xl text-cyan-400 mb-16">Technical Skills</h2>
-        <div className="flex justify-center gap-10 flex-wrap">
-          {["Elastic SIEM","Log Analysis","Alert Triage","Threat Detection","Bash Automation","Network Security"].map((skill,i)=> (
-            <motion.div key={i} whileHover={{ scale: 1.1 }} className="bg-slate-900 p-8 rounded-2xl border border-slate-700 hover:border-cyan-400 shadow-xl">
-              {skill}
-            </motion.div>
-          ))}
-        </div>
-      </section>
+      <TechnicalSkills />
 
       {/* Projects */}
       <section id="projects" className="py-24 text-center">
