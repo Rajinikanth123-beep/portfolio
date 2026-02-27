@@ -166,7 +166,7 @@ export default function Portfolio() {
           <p className="text-slate-400">
             SOC Analyst | SIEM Monitoring | Threat Detection | Log Analysis | Elastic Security
           </p>
-          <a href="/resume.pdf" download="Rajinikanth.pdf" className="inline-block mt-6 px-6 py-3 border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition rounded-lg">
+          <a href={process.env.PUBLIC_URL + "/Rajinikanth.pdf"} download="Rajinikanth_Reddy_Resume.pdf" className="inline-block mt-6 px-6 py-3 border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition rounded-lg">
             Download Resume
           </a>
         </div>
